@@ -1,9 +1,10 @@
-print("Welcome to our Quiz")
+print("Welcome to our Quiz!")
 play = input("Do you want to start? ")
 if play.lower()!="yes": 
     quit()
 sc=0
 #QUESTION 1
+print("Answer only in lowercase only!")
 ans= input("What is the full form of Ram?\n")
 if ans.lower()=='random access memory':
     print('Correct answer')
@@ -18,7 +19,7 @@ if ans.lower()=='read only memory':
 else:
     print('Incorrect answer') 
 #QUESTION 3
-ans= input("What is the full form of Lcd?\n")
+ans= input("What is the full form of LCD?\n")
 if ans.lower()=='liquid crystal display':
     print('Correct answer')
     sc+=1
@@ -46,8 +47,8 @@ if ans.lower()=='light emitting diode':
 else:
     print('Incorrect answer') 
 #QUESTION 7
-ans= input("Which is the cpu generation of Intel to support DDR5 ram?\n")
-if ans.lower()=='12th generation':
+ans= input("What is the full form of UPS?\n")
+if ans.lower()=='uninterrupted power supply':
     print('Correct answer')
     sc+=1
 else:
